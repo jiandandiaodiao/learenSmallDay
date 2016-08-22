@@ -12,6 +12,13 @@
 		C1F98A9E1D6AF27E0004BCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F98A9C1D6AF27E0004BCAC /* Main.storyboard */; };
 		C1F98AA01D6AF27E0004BCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F98A9F1D6AF27E0004BCAC /* Assets.xcassets */; };
 		C1F98AA31D6AF27E0004BCAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F98AA11D6AF27E0004BCAC /* LaunchScreen.storyboard */; };
+		C1F98AAF1D6AF8E00004BCAC /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F98AAE1D6AF8E00004BCAC /* theme.swift */; };
+		C1F98ABA1D6B057C0004BCAC /* fourpage-375w-667h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F98AB41D6B057C0004BCAC /* fourpage-375w-667h@2x.jpg */; };
+		C1F98ABB1D6B057C0004BCAC /* fourpage-414w-736h@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F98AB51D6B057C0004BCAC /* fourpage-414w-736h@3x.jpg */; };
+		C1F98ABC1D6B057C0004BCAC /* fourpage-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F98AB61D6B057C0004BCAC /* fourpage-568h@2x.jpg */; };
+		C1F98ABD1D6B057C0004BCAC /* fourpage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F98AB71D6B057C0004BCAC /* fourpage@2x.jpg */; };
+		C1F98ABE1D6B057C0004BCAC /* LeadpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F98AB91D6B057C0004BCAC /* LeadpageViewController.swift */; };
+		C1F98AC01D6B06280004BCAC /* DoubleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F98ABF1D6B06280004BCAC /* DoubleTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		C1F98A9F1D6AF27E0004BCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F98AA21D6AF27E0004BCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F98AA41D6AF27E0004BCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F98AAE1D6AF8E00004BCAC /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		C1F98AB41D6B057C0004BCAC /* fourpage-375w-667h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-375w-667h@2x.jpg"; sourceTree = "<group>"; };
+		C1F98AB51D6B057C0004BCAC /* fourpage-414w-736h@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-414w-736h@3x.jpg"; sourceTree = "<group>"; };
+		C1F98AB61D6B057C0004BCAC /* fourpage-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-568h@2x.jpg"; sourceTree = "<group>"; };
+		C1F98AB71D6B057C0004BCAC /* fourpage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage@2x.jpg"; sourceTree = "<group>"; };
+		C1F98AB91D6B057C0004BCAC /* LeadpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadpageViewController.swift; sourceTree = "<group>"; };
+		C1F98ABF1D6B06280004BCAC /* DoubleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				C1F98A981D6AF27E0004BCAC /* AppDelegate.swift */,
+				C1F98AAC1D6AF8C60004BCAC /* UI（界面） */,
 				C1F98A9A1D6AF27E0004BCAC /* ViewController.swift */,
 				C1F98A9C1D6AF27E0004BCAC /* Main.storyboard */,
 				C1F98A9F1D6AF27E0004BCAC /* Assets.xcassets */,
@@ -62,6 +77,46 @@
 				C1F98AA41D6AF27E0004BCAC /* Info.plist */,
 			);
 			path = MySmallDay;
+			sourceTree = "<group>";
+		};
+		C1F98AAC1D6AF8C60004BCAC /* UI（界面） */ = {
+			isa = PBXGroup;
+			children = (
+				C1F98AB31D6B057C0004BCAC /* imageFile */,
+				C1F98AB81D6B057C0004BCAC /* Main(公共) */,
+				C1F98AAD1D6AF8C60004BCAC /* other */,
+			);
+			name = "UI（界面）";
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C1F98AAD1D6AF8C60004BCAC /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C1F98AAE1D6AF8E00004BCAC /* theme.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		C1F98AB31D6B057C0004BCAC /* imageFile */ = {
+			isa = PBXGroup;
+			children = (
+				C1F98AB41D6B057C0004BCAC /* fourpage-375w-667h@2x.jpg */,
+				C1F98AB51D6B057C0004BCAC /* fourpage-414w-736h@3x.jpg */,
+				C1F98AB61D6B057C0004BCAC /* fourpage-568h@2x.jpg */,
+				C1F98AB71D6B057C0004BCAC /* fourpage@2x.jpg */,
+			);
+			path = imageFile;
+			sourceTree = "<group>";
+		};
+		C1F98AB81D6B057C0004BCAC /* Main(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				C1F98AB91D6B057C0004BCAC /* LeadpageViewController.swift */,
+				C1F98ABF1D6B06280004BCAC /* DoubleTextView.swift */,
+			);
+			name = "Main(公共)";
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +179,10 @@
 			files = (
 				C1F98AA31D6AF27E0004BCAC /* LaunchScreen.storyboard in Resources */,
 				C1F98AA01D6AF27E0004BCAC /* Assets.xcassets in Resources */,
+				C1F98ABA1D6B057C0004BCAC /* fourpage-375w-667h@2x.jpg in Resources */,
+				C1F98ABD1D6B057C0004BCAC /* fourpage@2x.jpg in Resources */,
+				C1F98ABB1D6B057C0004BCAC /* fourpage-414w-736h@3x.jpg in Resources */,
+				C1F98ABC1D6B057C0004BCAC /* fourpage-568h@2x.jpg in Resources */,
 				C1F98A9E1D6AF27E0004BCAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F98A9B1D6AF27E0004BCAC /* ViewController.swift in Sources */,
+				C1F98ABE1D6B057C0004BCAC /* LeadpageViewController.swift in Sources */,
+				C1F98AC01D6B06280004BCAC /* DoubleTextView.swift in Sources */,
+				C1F98AAF1D6AF8E00004BCAC /* theme.swift in Sources */,
 				C1F98A991D6AF27E0004BCAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +350,7 @@
 				C1F98AA91D6AF27E0004BCAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
